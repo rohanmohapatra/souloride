@@ -1,0 +1,168 @@
+body{
+        margin: 0;
+        background-image: url(../imgs/fleetbgr.png);
+        background-repeat: repeat;
+
+        
+}
+.topnav{
+        background-color: black;
+        width: auto;
+                
+}
+.topnav ul{
+    `   list-style-type: none;
+        margin: 0;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-color: black;
+        display: inline-block;
+        position: relative;
+        left: 25%;
+
+}
+li{
+        display : inline;
+        padding-left: 10px;
+        padding-right: 10px;
+}
+a{
+        
+        font-family: 'Montserrat',sans-serif;
+        font-weight: 700;
+        color : white; 
+        font-size: 25px;
+        background-color: black;
+        text-align: center;
+        text-decoration: none;
+}
+
+img.logo{
+        height: 80px;
+        float: left;
+        margin-left: 20px;
+}
+/*Nav Bar Ends*/
+.us-container{
+        height : 420px;
+        margin: -1.75%;
+        background-image:linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(255,255,255,0.2) 80%),url(../imgs/stars.gif);
+        background-position: top;
+        width: 101.75%;
+       
+
+}
+.us-card {
+        margin : 4%;
+        margin-left: 4.9%;
+        margin-right: 3.6%;
+        width : 250px;
+        height : 250px;
+        display: inline-block;
+}
+.us-text {
+        padding-top: 30px;
+        font-family: 'Montserrat',sans-serif;
+        font-weight: 900;
+        color: white;
+        font-size: 40px;
+}
+.us-image{
+        height : 250px;
+        
+        
+}
+
+.us-div-text{
+        font-family: 'Montserrat',sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        margin-top: -30%;
+}
+.us-img {
+        height : 50%;
+}
+.book{
+    height: 550px;
+    padding-top: 100px;
+}
+.date_picker{
+        width:20%;
+        height: 30px;
+        font-family: 'Montserrat',sans-serif;
+        border: 0;
+        border-bottom: 2px solid gray;
+        font-size: 25px;
+        color: gray;
+        text-align: center;
+        background-color: rgba(0,0,0,0);
+        
+}
+.time_picker{
+        width:20%;
+        height: 30px;
+        font-family: 'Montserrat',sans-serif;
+        border: 0;
+        font-size: 25px;
+        border-bottom: 2px solid gray;
+        color: gray;
+        text-align: center;
+        background-color: rgba(0,0,0,0);
+}
+.booking{
+        margin-top: 75px;
+        padding-top: 100px;
+        background-color: rgba(0,0,0,0.1);
+        height:150px;
+        width : 90%;
+}
+.dropdown{
+        width:40%;
+        height: 30px;
+        font-family: 'Montserrat',sans-serif;
+        border: 0;
+        border-bottom: 2px solid gray;
+        font-size: 25px;
+        color: gray;
+        text-align: center;
+        background-color: rgba(0,0,0,0);
+        text-align-last:center;
+
+}
+.search{
+        width:20%;
+        height: 50px;
+        background-color: #ff6600;
+        font-family: 'Montserrat',sans-serif;
+        font-weight: 900;   
+        text-align: center;
+        font-size: 25px;
+        color: white;
+        border:0;
+        
+}
+
+
+/*Subscibe section Styling Ends here*/
+/*Footer Styling*/
+.footer{
+        background-color: black;
+        
+        width: 100%;
+        height: 200px;
+}
+.subscribe
+{
+	font-family: 'Montserrat',sans-serif;
+    background-image:linear-gradient(to top, rgba(0,0,0,1) 0%,rgba(255,255,255,0.2) 80%),url(../imgs/stars.gif);
+    background-position: bottom;
+	width: 100%;
+	height: 320px;
+	color:  white;
+	font-size: 30px;
+ 
+}
+/*Footer Styling Ends Here*/
+

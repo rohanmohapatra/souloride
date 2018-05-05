@@ -1,0 +1,389 @@
+.topnav{
+        background-color: black;
+                
+}
+.topnav ul{
+    `   list-style-type: none;
+        margin: 0;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-color: black;
+        display: inline-block;
+        position: relative;
+        left: 25%;
+
+}
+li{
+        display : inline;
+        padding-left: 10px;
+        padding-right: 10px;
+}
+a{
+        
+        font-family: 'Montserrat',sans-serif;
+        font-weight: 700;
+        color : white; 
+        font-size: 25px;
+        background-color: black;
+        text-align: center;
+        text-decoration: none;
+}
+
+img.logo{
+        height: 80px;
+        float: left;
+        margin-left: 20px;
+}
+/*Nav Bar Ends*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: transparent;
+    font-family: 'Montserrat',sans-serif;
+	height:100%;
+	width:100%
+    
+}
+.parallax{
+        
+        margin-top: -1.75%;
+        padding-top:0; 
+        background-image: url(../imgs/bck.jpg);
+        background-attachment: fixed;
+        background-repeat:no-repeat;
+        background-size: cover;
+}
+
+.box{
+	height:150px;
+	width:100%;
+	color:white;
+	opacity:05;
+	text-align:center;
+	background: rgba(0, 0, 0, 0.2);
+	padding-top:30px;
+	padding-bottom:6px;
+	
+}
+
+
+
+.txt{
+	color:black;
+	font-family: 'Montserrat',sans-serif;
+	background-color:transparent;
+	text-align:center;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+	background-color: transparent;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+	background-color:#ff6600;
+}
+
+/* Container around content */
+.container {
+    padding: 10px 40px;
+    position: relative;
+    
+    width: 50%;
+	background-color:transparent;
+}
+
+/* The circles on the timeline */
+.container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color:#ff6600;
+    border: 4px solid #FF9F55;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+	
+}
+
+/* Place the container to the left */
+.left {
+    right: 0%;
+}
+
+/* Place the container to the right */
+.right {
+    left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid black;
+    border-width: 10px 0 10px 10px;
+	background-color:transparent;
+    border-color: transparent transparent transparent black;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+	background-color:transparent;
+    border-color: transparent black transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+    left: -16px;
+}
+
+/* The actual content */
+.content {
+    padding: 20px 30px;
+    background-color: black;
+	color:white;
+    position: relative;
+    border-radius: 6px;
+}
+
+.subscribe
+{
+	font-family: 'Montserrat',sans-serif;
+	background-color: black;
+	width: 100%;
+	height: 320px;
+	color:  white;
+	font-size: 30px;
+ 
+}
+img.logo{
+        height: 80px;
+        float: left;
+        margin-left: 20px;
+}
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media  screen and (max-width: 1366px) {
+.topnav{
+        background-color: black;
+                
+}
+.topnav ul{
+    `   list-style-type: none;
+        margin: 0;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-color: black;
+        display: inline-block;
+        position: relative;
+        left: 15%;
+
+}
+li{
+        display : inline;
+        padding-left: 10px;
+        padding-right: 10px;
+}
+a{
+        
+        font-family: 'Montserrat',sans-serif;
+        font-weight: 700;
+        color : white; 
+        font-size: 25px;
+        background-color: black;
+        text-align: center;
+        text-decoration: none;
+}
+
+img.logo{
+        height: 80px;
+        float: left;
+        margin-left: 20px;
+}
+/*Nav Bar Ends*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: transparent;
+    font-family: 'Montserrat',sans-serif;
+	height:100%;
+	width:100%
+    
+}
+.parallax{
+        
+        margin-top: -2%;
+        padding-top:0; 
+        background-image: url(../imgs/bck.jpg);
+        background-attachment: fixed;
+        background-repeat:no-repeat;
+        background-size: cover;
+}
+
+.box{
+	height:150px;
+	width:100%;
+	color:white;
+	opacity:05;
+	text-align:center;
+	background: rgba(0, 0, 0, 0.2);
+	padding-top:30px;
+	padding-bottom:6px;
+	
+}
+
+
+
+.txt{
+	color:black;
+	font-family: 'Montserrat',sans-serif;
+	background-color:transparent;
+	text-align:center;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+	background-color: transparent;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+	background-color:#ff6600;
+}
+
+/* Container around content */
+.container {
+    padding: 10px 40px;
+    position: relative;
+    
+    width: 50%;
+	background-color:transparent;
+}
+
+/* The circles on the timeline */
+.container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color:#ff6600;
+    border: 4px solid #FF9F55;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+	
+}
+
+/* Place the container to the left */
+.left {
+    right: 0%;
+}
+
+/* Place the container to the right */
+.right {
+    left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid black;
+    border-width: 10px 0 10px 10px;
+	background-color:transparent;
+    border-color: transparent transparent transparent black;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+	background-color:transparent;
+    border-color: transparent black transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+    left: -16px;
+}
+
+/* The actual content */
+.content {
+    padding: 20px 30px;
+    background-color: black;
+	color:white;
+    position: relative;
+    border-radius: 6px;
+}
+
+.subscribe
+{
+	font-family: 'Montserrat',sans-serif;
+	background-color: black;
+	width: 100%;
+	height: 340px;
+	color:  white;
+	font-size: 30px;
+ 
+}
+img.logo{
+        height: 80px;
+        float: left;
+        margin-left: 20px;
+}
+}

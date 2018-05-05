@@ -1,0 +1,263 @@
+body{
+        margin: 0;
+    background-image: url(../imgs/fleetbgr.png);
+    background-repeat: repeat;
+        
+}
+.topnav{
+        background-color: black;
+                
+}
+.topnav ul{
+    `   list-style-type: none;
+        margin: 0;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-color: black;
+        display: inline-block;
+        position: relative;
+        left: 25%;
+
+}
+li{
+        display : inline;
+        padding-left: 10px;
+        padding-right: 10px;
+}
+a{
+        
+        font-family: 'Montserrat',sans-serif;
+        font-weight: 700;
+        color : white; 
+        font-size: 25px;
+        background-color: black;
+        text-align: center;
+        text-decoration: none;
+}
+
+img.logo{
+        height: 80px;
+        float: left;
+        margin-left: 20px;
+}
+/*Nav Bar Ends*/
+.fleetdiv{
+    font-family: 'Montserrat',sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 1200px;
+    
+    
+}
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateY(600px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+p.fleettext{
+    text-align: center;
+    color: #ff6600;
+    font-weight: 600;
+    font-size: 70px;
+    margin: 0;
+    padding-top: 20px;
+}
+#dropdown{
+    
+    font-family: 'Montserrat',sans-serif;
+    padding-right: 30px;
+    margin-left: 20px;
+}
+.fleet-container{
+        margin: 20px;
+        padding-left: 5%;
+        animation: 0.9s ease-in-out 0s 1 slideInFromLeft;
+        
+        
+        
+}
+.fleet-card{
+        width : 200px;
+        height : 200px;
+        
+        border : 5px solid darkgray;
+        float : left;
+        margin: 4px;
+         
+        
+}
+.fleet-img{
+        height : 100px;
+        padding: 10px;
+}
+.fleet-img img{
+        height : 100px;
+        position: relative;
+        left: 4.5%;
+        
+}
+
+.fleet-text p{
+        font-family: 'Montserrat',sans-serif;
+        font-weight: 900;
+        color : black;
+        font-size:20px;
+        text-align: center;
+       
+}
+/*Subscibe section Stying Starts here*/
+.subscribe
+{
+	font-family: 'Montserrat',sans-serif;
+	background-color: black;
+	width: 100%;
+	height: 300px;
+	color:  white;
+	font-size: 30px;
+    z-index: 1;
+    position: absolute;
+ 
+}
+/*Subscibe section Styling Ends here*/
+/*Footer Styling*/
+.footer{
+        background-color: black;
+        width: 100%;
+        height: 200px;
+}
+/*Footer Styling Ends Here*/
+@media  screen and (max-width: 1366px) {
+        body{
+                margin: 0;
+                background-image: url(../imgs/fleetbgr.png);
+                background-repeat: repeat;
+
+        }
+        .topnav{
+                background-color: black;
+
+        }
+        .topnav ul{
+            `   list-style-type: none;
+                margin: 0;
+                padding-top: 30px;
+                padding-bottom: 30px;
+                background-color: black;
+                display: inline-block;
+                position: relative;
+                left: 15%;
+
+        }
+        li{
+                display : inline;
+                padding-left: 10px;
+                padding-right: 10px;
+        }
+        a{
+
+                font-family: 'Montserrat',sans-serif;
+                font-weight: 700;
+                color : white; 
+                font-size: 25px;
+                background-color: black;
+                text-align: center;
+                text-decoration: none;
+        }
+
+        img.logo{
+                height: 80px;
+                float: left;
+                margin-left: 20px;
+        }
+        /*Nav Bar Ends*/
+        .fleetdiv{
+            font-family: 'Montserrat',sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 1400px;
+
+
+        }
+        @keyframes slideInFromLeft {
+          0% {
+            transform: translateY(600px);
+            opacity: 0;
+          }
+          100% {
+            transform: translateY(0%);
+            opacity: 1;
+          }
+        }
+        p.fleettext{
+            text-align: center;
+            color: #ff6600;
+            font-weight: 600;
+            font-size: 70px;
+            margin: 0;
+            padding-top: 20px;
+        }
+        #dropdown{
+
+            font-family: 'Montserrat',sans-serif;
+            padding-right: 5px;
+            margin-left: 20px;
+        }
+        .fleet-container{
+                margin: 50px;
+                padding-left: 5%;
+                animation: 0.9s ease-in-out 0s 1 slideInFromLeft;
+   
+        }
+        .fleet-card{
+                width : 200px;
+                height : 200px;
+                
+                border : 5px solid darkgray;
+                float : left;
+                margin: 4px;
+                
+
+
+        }
+        .fleet-img{
+                height : 100px;
+                padding: 10px;
+        }
+        .fleet-img img{
+                height : 100px;
+                position: relative;
+                left: 4.5%;
+
+        }
+
+        .fleet-text p{
+                font-family: 'Montserrat',sans-serif;
+                font-weight: 900;
+                color : black;
+                font-size:20px;
+                text-align: center;
+
+        }
+        /*Subscibe section Stying Starts here*/
+        .subscribe
+        {
+            font-family: 'Montserrat',sans-serif;
+            background-color: black;
+            width: 100%;
+            height: 300px;
+            color:  white;
+            font-size: 30px;
+            margin-bottom: 0;
+            z-index: 1;
+            position: absolute;
+
+
+        }
+        /*Subscibe section Styling Ends here*/
+        /*Footer Styling*/
+}

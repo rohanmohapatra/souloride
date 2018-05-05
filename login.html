@@ -1,0 +1,149 @@
+<!--Login/SignUp Page of Soulo Ride Website-->
+
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+<link rel="stylesheet" type="text/css" href="css/login_style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--Webpage Starts-->
+<html>
+    <!--Head Starts-->
+    <head>
+        <!--Document Level Styling if needed-->
+        <style>
+        /*Styling if any goes here*/
+        </style>
+		<title>Soulo Ride | Login/SignUp</title><!--Title of the webpage-->
+    </head>
+	<meta name="viewport" content="width=device-width"><!--Responsive Webpage-->
+    <!--Head Ends-->
+    <!--Body Starts-->
+    <body>
+		<!--Large Header Section Starts Here-->
+        <div class="topnav">
+        	<img src="imgs\Soulo_Ride_Color_Logo.png" class="logo" />
+            	<ul class="nav">
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="ourfleet.html">Our Fleet</a></li>
+                    <li><a href="tariff.html">Tariff</a></li>
+                    <li><a href="rides.html">Earn</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="login.html">Login/SignUp</a></li>
+                </ul>
+        </div>
+		<!--Large Header Section Ends Here-->
+		
+		<!--Content of the page Starts here-->
+		<center>
+        <div class="loginup">
+            <div class="choice">
+                <button class="value">SIGN UP</button>
+                <button class="value" style="padding-bottom: 20px;border-bottom :2px solid grey;color : #ff6600;">LOGIN</button>
+                <div class="signup">
+                    <br/><br/>
+                    <form action="signup.php" method="post" id="signup_form">
+                    <input type="text" placeholder="Name" style=" width:70%; height:5%;" name="name" />
+
+                    <br/><br/><br/>
+                    <input type="email" placeholder="Email Id" style=" width:70%; height:5%;" name="email" />
+
+                    <br/><br/><br/>
+                    <input type="text" placeholder="Username" style=" width:70%; height:5%;" name="user" />
+
+                    <br/><br/><br/>
+                    <input type="password" placeholder="Password" style=" width:70%; height:5%;" name="pass" />
+
+                    <br/><br/><br/>
+                    <input type="submit" value="SIGN UP" class="submit"></form>
+                </div>
+                <div class="login">
+
+                    <br/><br/><br/>
+                    <form action="login.php" method="post" id="login_form">
+                    <input type="text" required placeholder="Username" style=" width:70%; height:5%;"oninvalid="this.setCustomValidity('Please Enter valid Username')"
+ oninput="setCustomValidity('')" name="loginuser" />
+
+                    <br/><br/><br/>
+                    <input type="password" placeholder="Password" style=" width:70%; height:5%;" required oninvalid="this.setCustomValidity('Please Enter valid Password')"
+ oninput="setCustomValidity('')" name="loginpass"/>
+
+                    <br/><br/><br/>
+                        <input type="submit" value="LOGIN" class="submit"></form>
+                </div>
+            </div>
+        </div>
+            <script>
+                var button = document.querySelectorAll(".value");
+                var signupdiv=document.querySelector(".signup");
+                var logindiv=document.querySelector(".login");
+                for(var i=0;i<button.length;i++)
+                    {
+                        if(i){
+                            button[i].addEventListener("click",changeDiv1,false);
+                        }
+                        else{
+                            button[i].addEventListener("click",changeDiv2,false);
+                        }
+                    }
+                function changeDiv2(element){
+                    signupdiv.style.display="block";
+                    logindiv.style.display="none";
+                    element.target.style.borderBottom="2px solid grey";
+                    element.target.style.color="#ff6600";
+                    button[1].style.borderBottom="0";
+                    button[1].style.color="grey";
+                }
+                function changeDiv1(element){
+                    logindiv.style.display="block";
+                    signupdiv.style.display="none";
+                    element.target.style.borderBottom="2px solid grey";
+                    element.target.style.color="#ff6600";
+                    button[0].style.borderBottom="0";
+                    button[0].style.color="grey";
+                    
+                }
+
+            </script>
+		</center>
+            
+		<!--Content of the page Ends here-->
+		
+		<!--Subscribe Section Starts Here-->
+		<div class="subscribe">
+			<img src="imgs\Soulo_Ride_Color_Logo.png" class="logo" top:"60%" />
+			<p style = "text-align:right; font-size:24px; padding-right:5%; margin:0;"> 	
+				Follow us on :	
+				<br/>
+				<i class="fa fa-facebook-square" aria-hidden="true" style="color:white;"></i>
+				<i class="fa fa-linkedin-square" aria-hidden="true" style="color:white;"></i>
+				<i class="fa fa-instagram" aria-hidden="true" style="color:white;"></i>
+				<i class="fa fa-pinterest-square" aria-hidden="true" style="color:white;"></i>
+				<i class="fa fa-twitter-square" aria-hidden="true" style="color:white;"></i>
+				<i class="fa fa-tumblr-square" aria-hidden="true" style="color:white;"></i>
+			</p>
+			<br/> 
+			<p style="text-align:center; padding: 0%; font-size:15px;">
+				How often do you wish to get away from your mundane day to day life and seek newer terrains? How many times have movie frames allured you to wish to buy a luxury bike? Soulo Ride provides you a one stop solution to these problems...
+				Before you buy a luxury bike just rent your favorite luxury bike and then decide "Is it worth investing huge money on buying it" Soulo Ride's wide range of bikes will definitely complete your need without any doubt. Hassle free renting and restriction less riding. Rent it to believe it. A class experience on luxury bike rentals. Subscribe Now for more details and offers!!</p>
+			<center>
+            <div style="display:inline;width:135px;">
+			<form action="email.php" method="post">
+			<input type="email" placeholder="  ENTER EMAIL ID TO SUBSCRIBE" style="height:35px; width:25%; font-size:10px;font-family: 'Montserrat',sans-serif;border-radius:4px; border :0;text-align : center;" name="subemail"/>
+                &nbsp;<div style="display :inline;margin-top:200px;position: relative;top: 3.5px;">
+			<input type="submit" name="subscribe" style="color:white; background-color:#ff6600;border:0;border-radius:5px; height:35px; width:135px; font-size:20px;font-family: 'Montserrat',sans-serif;font-weight:500; text-align:center"value="Subscribe">
+                </form>
+            </div>
+			</center>
+			
+			<p style="font-size:10px; text-align:left;">
+				<span style="font-size:18px; color:#ff6600;">	Disclaimer :	</span>	
+				Soulo Ride has solicited information from numerous other sources in compiling the contents of this website. Although every effort has been made to insure accuracy, some of the information, products and services published on this website may include inaccuracies and typographical errors.
+				Soulo Ride makes no representations about the suitability of the information and services contained on this website for any purpose.
+				<br/>
+				<span style="font-size:13px; color:white;">	&copy 2017 SOULO RIDE PIXELATOR STUDIOS PVT.LTD.ALL RIGHTS RESERVED	</span>
+			</p>
+		</div>
+		<!--Subscribe Section Ends Here-->
+	</body>
+	<!--Body Ends-->
+</html>
+<!--Webpage Ends-->

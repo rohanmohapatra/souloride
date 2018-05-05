@@ -1,0 +1,143 @@
+/*Navigation Bar Styling*/
+body{
+        margin: 0;
+        background-color: lightgrey;
+        background-image: url(../imgs/fleetbgr.png);
+}
+
+.topnav{
+        background-color: black;
+                
+}
+.topnav ul{
+    `   list-style-type: none;
+        margin: 0;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-color: black;
+        display: inline-block;
+        position: relative;
+        left: 26%;
+}
+li{
+        display : inline;
+        padding-left: 10px;
+        padding-right: 10px;
+}
+a{
+        
+        font-family: 'Montserrat',sans-serif;
+        font-weight: 700;
+        color : white; 
+        font-size: 25px;
+        background-color: black;
+        text-align: center;
+        text-decoration: none;
+}
+
+.upperbackground{
+        opacity : 0.6;
+}
+img.logo{
+        height: 80px;
+        float: left;
+        margin-left: 20px;
+}
+@keyframes head {
+    
+        0% {font-size:0; opacity:0;}
+        100% {font-size:100px;opacity:1;}
+}
+
+input.reg{
+        animation-name: none;
+        font-family: 'Montserrat',sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        border: white solid 3px;
+        height:50px;
+        width: 200px;
+        color : white;
+        background: rgba(255,255,255,0);         
+}
+
+/*Navigation Bar Styling Ends*/
+
+/*Content of the page Starts here*/
+#one{
+	width: 95%;
+    height: 35%;
+    background-color: black;
+    box-shadow: 10px 10px 5px #888888;
+	color: white;
+	border-radius: 6px;
+	margin-top: 3px;
+	font-size: 20px;
+	font-family: 'Montserrat',sans-serif;
+}
+
+.two{
+	width: 47.2%;
+    height: 70%;
+    background-color: black;
+    box-shadow: 10px 10px 5px #888888;
+	color: white;
+	border-radius: 6px;
+	font-size: 18px;
+	font-family: 'Montserrat',sans-serif;
+}
+
+.bullet{
+	padding-left: 2%;
+	background-color: #ff6600;
+}
+
+.list{
+	padding-left: 5%;
+	text-align: left;
+}
+/*Content of the page Ends here*/
+
+/*Subscibe section Stying Starts here*/
+.subscribe
+{
+	font-family: 'Montserrat',sans-serif;
+	background-color: black;
+	width: 100%;
+	height: 320px;
+	color:  white;
+	font-size: 30px;
+}
+
+/*Subscibe section Styling Ends here*/
+
+/*Footer Styling*/
+.footer{
+        background-color: black;
+        width: 100%;
+        height: 200px;
+}
+
+/*Footer Styling Ends Here*/
+@media  screen and (max-width: 1366px) {
+    .topnav ul{
+    `   list-style-type: none;
+        margin: 0;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-color: black;
+        display: inline-block;
+        position: relative;
+        left: 15%;
+}
+    .subscribe
+{
+	font-family: 'Montserrat',sans-serif;
+	background-color: black;
+	width: 100%;
+	height: 340px;
+	color:  white;
+	font-size: 30px;
+}
+    
+}
